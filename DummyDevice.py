@@ -12,13 +12,13 @@ class DeviceSignal:
 
     HOST = "localhost"
     PORT = 1883
-    CLIENT_ID = "device1-"
+    CLIENT_ID = "5ef6e3b50810e92c8fa198dd-"
 
     # ---- TOPICS NAME ----
     TEMPERATURE_TOPIC_NAME = "temperature"  # 10 C between 25 C
-    LIGHT_TOPIC_NAME = "/light"  # 10 between 800
-    WATERFLOW_TOPIC_NAME = "/waterflow"  # 100 between 1000
-    PH_TOPIC_NAME = "/ph"  # 0 between 14
+    LIGHT_TOPIC_NAME = "light"  # 10 between 800
+    WATERFLOW_TOPIC_NAME = "waterflow"  # 100 between 1000
+    PH_TOPIC_NAME = "ph"  # 0 between 14
 
     # ----- TOPICS MESSAGES ---
     WATERFLOW_TOPIC_MESSAGE = "12"  # create message per 10 seconds
